@@ -1,12 +1,12 @@
-package signable_api_client
+package main
 
 import (
 	"encoding/base64"
 	"encoding/json"
 	"errors"
 	"fmt"
+	"github.com/nicdavies/signable-api-client/types"
 	"net/http"
-	"signable-api-client/types"
 	"time"
 )
 

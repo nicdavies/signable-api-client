@@ -1,4 +1,4 @@
-package signable_api_client
+package main
 
 import (
 	"bytes"
@@ -6,8 +6,8 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
+	"github.com/nicdavies/signable-api-client/types"
 	"net/http"
-	"signable-api-client/types"
 )
 
 func (c *Client) GetContacts(ctx context.Context, options *types.ListContactsOptions) (*types.ListContactsResponse, error) {
